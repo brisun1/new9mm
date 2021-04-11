@@ -30,7 +30,7 @@
 
                             <div class="col-md-6">
                                 {{-- <input id="ucountry" type="text" class="form-control{{ $errors->has('ucountry') ? ' is-invalid' : '' }}" name="ucountry" value="{{ old('ucountry')?old('ucountry'):app('shared')->get('ipCountry') }}" required autofocus> --}}
-                                <input id="ucountry" type="text" class="form-control{{ $errors->has('ucountry') ? ' is-invalid' : '' }}" name="ucountry" value="{{ old('ucountry')}}" required autofocus>
+                                <input id="ucountry" type="text" class="form-control{{ $errors->has('ucountry') ? ' is-invalid' : '' }}" name="ucountry" value="{{__('爱尔兰')}}" readonly required autofocus>
                                 @if ($errors->has('ucountry'))
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $errors->first('ucountry') }}</strong>

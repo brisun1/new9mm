@@ -19,7 +19,7 @@
 
 
             <!-- customized Navbar -->
-            <ul class="navbar-nav">
+            <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
                 <a class="nav-link" href="/"> <span class="sr-only">(current)</span></a>
               </li>
@@ -29,19 +29,19 @@
               <li class="nav-item">
                 <a class="nav-link" href="/massage">按摩</a>
               </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="/contract">移民婚约</a>
-              </li>
+              
               
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  更多
+                  更多讯息
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <a class="dropdown-item" href="/more">包养</a>
                   <a class="dropdown-item" href="/more">伴游</a>
                   <a class="dropdown-item" href="/more">商务陪伴</a>
                   
+                    <a class="dropdown-item" href="/contract">移民婚约</a>
+                
                 </div>
               </li>
               
@@ -51,7 +51,7 @@
             </ul>
             <!-- Right Side Of Navbar -->
             <!-- Right Side Of Navbar -->
-            <ul class="navbar-nav ml-auto">
+            {{-- <ul class="navbar-nav ml-auto">
                 <!-- Authentication Links -->
                 @guest
                     <li class="nav-item">
@@ -85,7 +85,7 @@
                         </div>
                     </li>
                 @endguest
-            </ul>
+            </ul> --}}
         </div>
     </div>
 </nav>
